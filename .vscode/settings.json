@@ -1,0 +1,17 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "files.associations": {
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__":true
+    }
+}
